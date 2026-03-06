@@ -1,5 +1,5 @@
 services:
   webserver:
-    build: .
+    image: collapse7/lab10task2
     ports:
       - "8080:80"
